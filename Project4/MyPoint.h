@@ -12,7 +12,7 @@ public:
 	~MyPoint();
 	friend std::ostream & operator <<(std::ostream &, const MyPoint &);
 	friend std::istream & operator >>(std::istream &,  MyPoint &);
-	operator int() {
+	explicit operator int() {
 		return int(x + y + z);
 	}
 

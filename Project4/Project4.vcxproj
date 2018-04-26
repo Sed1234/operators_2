@@ -110,9 +110,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Airplane.h" />
+    <ClInclude Include="Circle.h" />
     <ClInclude Include="MyPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Airplane.cpp" />
+    <ClCompile Include="Circle.cpp" />
     <ClCompile Include="MyPoint.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
